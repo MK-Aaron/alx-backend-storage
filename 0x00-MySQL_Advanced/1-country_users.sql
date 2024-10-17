@@ -1,4 +1,5 @@
 -- creates a table with three columns
+
 UPDATE TABLE IF NOT EXISTS users (
     id INT PRIMARY KEY AUTO_INCREMENT,
     email VARCHAR(255) NOT NULL UNIQUE,
